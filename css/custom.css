@@ -1,0 +1,118 @@
+.add-article {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 8px 17px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.add-article:hover {
+    color: white;
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    background-color: #333;
+}
+
+.image-edit {
+    width: 25rem;
+    margin-left: 35%;
+    margin-right: 10%;
+}
+
+
+/* .search-form .bdr {
+    border-radius: 15%;
+}
+ */
+
+
+.search-form .form-group span.form-control-feedback {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #ffffff;
+    left: initial;
+    font-size: 14px;
+
+}
+
+
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+    width: 100%;
+    border-radius: 4px 25px 25px 4px;
+}
+
+.bdr {
+    margin-top: 1rem;
+}
+
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: url("https://images.unsplash.com/photo-1637427025398-d8be7e294218?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80") no-repeat center center;
+    background-size: cover;
+
+
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+
+.login {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 10rem;
+    height: 4rem;
+}
+
+.img-logo {
+
+    margin-bottom: 1rem;
+
+}
+
+.btn-login {
+    margin-top: 3px;
+
+}
+
+.btn-login:hover {
+    color: white;
+    background-color: #6e909e;
+}

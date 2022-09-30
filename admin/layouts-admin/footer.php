@@ -30,7 +30,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/4.0.13/js/froala_editor.min.js" integrity="sha512-T/qVgfdBA30JC5x7Xt4uwM3pti6kkmjKlAfUFVQ8NJ8VX0Dj0gi3FH2yFQbV+02KDyYOdCmYuAa435KGhgNzUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-	new FroalaEditor('textarea#nvx_contenu')
+	new FroalaEditor('#nvx_contenu')
 </script>
 
 </body>

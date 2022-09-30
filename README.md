@@ -14,3 +14,6 @@ Pour les pages d’administration :
 - 1 Page d’ajout d’éléments.
 - Avoir la possibilité de supprimer des éléments.
 
+[![Alt text](/images/preview.png)](https://digitalocean.com)
+
+
